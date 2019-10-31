@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- colocando a pagina em portugue -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="script.js"></script>
+    <!-- importando arquivo css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- importando fontes do google -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code|ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+    <!-- titulo da pagina -->
+    <title>ADM StartT</title>
+    <script type="text/javascript">
+        function slide1(){
+        document.getElementById('id').src="3.png";
+        setTimeout("slide2()", 5000)
+        }
+          
+        function slide2(){
+        document.getElementById('id').src="2.png";
+        setTimeout("slide3()", 5000)
+        }
+          
+        function slide3(){
+        document.getElementById('id').src="4.png";
+        setTimeout("slide1()", 5000)
+        }
+        </script>
+</head>
+<body onLoad="slide1()">
+
+    <div class= "top">
+        <!-- cabeçalho -->
+        <header> 
+            <img src="logo.png" alt="logo">
+            <h1> 
+                Adm </br> 
+                Start Thinking
+            </h1>     
+        </header>
+        <nav>
+            <!-- href recebe o link -->
+            <!-- target ="_blank" abre nova aba -->
+            <!-- Levar para a pag do canal-->
+            <a target="_blank" href="https://www.youtube.com/channel/UCUnuZIsfvDNRh3awB6vUtdg?view_as=subscriber">Videos</a>
+            <a target="_blank" href="https://www.instagram.com/adm_startt/">Instagram</a>
+            <a target="_blank" href="">Materiais</a>
+            <a target="_blank" href="">Fale conosco</a>
+        </nav>
+    </div>
+
+    <div class= "vidAbout">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wtMdQhjUf_8" 
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    </div>
+ 
+    <div class= "corpo">  
+        <div  class="pt1"> 
+            <h2 class="titulos">Sobre: </h2>           
+            <p class= "about">
+                    O canal tem por objetivo ajudar Estudantes em sua jornada por conhecimento, tirando duvida, estudando e aprendendo junto.  Acreditamos que a melhor maneira de aprender é compartilhando e aprendendo lado a lado, mantendo na cabeça que é necessário um novo olhar para seguir evoluindo, pois nada é absoluto.
+                Nosso foco é no estudantes,  não se limitando a um assunto ou outro, como sitado anteriormente estamos sempre dispostos a aprender junto com vocês, esperamos que curtam esse projeto assim como nós.
+            </p> 
+        </div>
+        <div class="perfil">
+            <div class="foo"> 
+                <h5 class= "foo1">1° Estudante: Lin</h5>
+            </div>
+            <img class= "my" src="perfil.jpg" alt="Foto">
+            <div class = "foo2">
+                <p class = "bio"> 
+                    22 anos.</br>
+                    Bacharel em Administração. </br>
+                    Estudante de Análise e Desenvolvimento de Sistemas.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="titulos"> Noticías: </h2>
+
+    <div class= "noticia">
+        <div class = "img1"> 
+            <img src="img1.png" alt="codificação" id="id">
+        </div>
+        <div class = "nota">
+            <h3 class= "titulos">Dilmês</h3>
+            <p class = "text">
+                No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11 entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar.
+                </br> Ai você fala o seguinte: "- Mas vocês acabaram isso?" Vou te falar: -"Não, está em andamento!" Tem obras que "vai" durar pra depois de 2010. Agora, por isso, nós já não desenhamos, não começamos a fazer projeto do que nós "podêmo fazê"? 11, 12, 13, 14... Por que é que não?
+            </p>
+        </div> 
+    </div>
+
+    <footer class= "rodape">
+        <p>ADM Start Thinking</br>
+            Since 2019.</br>
+            Guarujá - SP.
+        </p>
+    </footer>
+   
+</body>
+</html>
