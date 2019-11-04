@@ -1,0 +1,33 @@
+#navb #logo{
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: wheat;
+}
+#logo img{
+    
+}
+#logo h1{
+
+}
+#navb #menu{
+    grid-area: op;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: tomato;
+}
+#navb #menu ol{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-color: yellow;
+    padding-left: 0;
+}
+#navb #menu ol li{
+    margin-left: 5%;
+}
