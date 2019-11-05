@@ -3,6 +3,7 @@ body{
     grid-template-areas: 'navbar'
                          'header'
                          'main'
+                         'main'
                          'footer';
     grid-template-columns: 100%;
     margin: 0 auto;
@@ -24,9 +25,10 @@ header{
     background-color: brown;
 }
 main{
-    grid-area:main;
-    grid-template-areas: 'sobre'
-                         'noticia';
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 's1'
+                         'n1';
     grid-template-columns: 100%;
     background-color: darkblue;
 }
@@ -37,4 +39,7 @@ footer{
     align-items: center;
     height: 100px;
     background-color: darkorange;
+}
+div{
+    width: 100%;
 }

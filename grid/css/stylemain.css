@@ -1,14 +1,82 @@
 
-main section{
-    grid-area: sobre;
-    grid-template-areas: "s1 s2";
-    grid-template-columns: 50%;
+main #sobre{
+    grid-area: s1;
+    display: grid;
+    grid-template-areas: "s2 s2 s3";
+    grid-template-columns: 33.33%;
+    background-color: chartreuse;
+    height: 300px;
 }
 main #sobre #s1{
-    grid-area: s1;
+    grid-area: s2;
     background-color: teal;
 }
+main #sobre #s1 .subtitulo{
+    display: flex;
+    align-items: center;
+    background-color: darkred;
+}
+main #sobre #s1 .subtitulo h2{
+    margin: 0 0 0 2%;
+}
+main #sobre #s1 .texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main #sobre #s1 .texto p{
+    font-size: 14pt;
+    text-align: justify;
+    background-color: pink;
+    margin: 8px 10%;
+}
+
 main #sobre #s2{
-    grid-area: s2;
+    grid-area: s3;
     background-color: turquoise;
 }
+main #sobre #s2 #tx1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #sobre #tx2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    text-align: center;
+}
+h4{
+    margin: 8px;
+}
+
+main #sobre #perfil{
+    height: 60%;
+    width: 50%;
+    margin-left: 25%;
+}
+main #sobre #perfil img{
+    height: 100%;
+    width: 100%;
+}
+main #noticia{
+    grid-area: n1;
+    display: grid;
+    grid-template-areas: "s4 s7";
+    grid-template-columns: 33.33%;
+    background-color: darkcyan;
+    height: 300px;
+}
+main #noticia #s3{
+    grid-area: s4;
+    background-color: cornflowerblue;
+
+}
+main #noticia #s4{
+    grid-area: s7;
+    background-color: darkgreen;
+}
+
